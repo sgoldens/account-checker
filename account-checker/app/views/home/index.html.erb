@@ -1,0 +1,15 @@
+<% if current_user %>
+  <div class="page-header">
+    <h1>Here is some info about you...</h1>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <ul>
+        <li><strong>email:</strong> <%= current_user.email %></li>
+        <li><strong>name:</strong> <%= current_user.name %></li>
+      </ul>
+    </div>
+  </div>
+<% else %>
+  <%= render 'welcome' %>
+<% end %>
