@@ -16,12 +16,12 @@
         </div>
         <div id="navbar">
           <% if current_user %>
-            <ul class="nav pull-right nav-tabs" style="display: flex">
+            <ul class="nav pull-right nav-pills" style="display: flex">
               <li class="nav"><%= link_to 'Home', home_path %></li>
               <li class="nav"><%= link_to 'Sign Out', destroy_user_session_path %></li>
             </ul>
           <% else %>
-            <ul class="nav navbar-nav">
+            <ul class="nav pull-right nav-pills">
               <li><%= link_to 'Sign In', new_user_session_path %></li>
             </ul>
           <% end %>
