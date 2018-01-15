@@ -9,11 +9,17 @@ class SearchesController < ApplicationController
   end
 
   def create
-    @result = Search.new.is_term_available(search_params)    
+    @search = Search.new({term: search_params, user: current_user})
+    @result = Search.new.is_term_available(search_params)
     respond_to do |f|
-      f.html
-      f.js 
+      if @search.save
+        f.html
+        f.js 
+      else
+        f.html { render 'index' }
+      end
     end
+
   end
 
   private

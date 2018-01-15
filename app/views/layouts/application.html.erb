@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Account Checker</title>
+    <title>lmrtfy.com - "Let Me Reserve That For You!"</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -12,7 +12,7 @@
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
-          <%= link_to 'Account Checker', root_path, class: 'navbar-brand' %>
+          <%= link_to 'lmrtfy.com - "Let Me Reserve That For You!"', root_path, class: 'navbar-brand' %>
         </div>
         <div id="navbar">
           <% if current_user %>
@@ -22,7 +22,8 @@
             </ul>
           <% else %>
             <ul class="nav pull-right nav-pills">
-              <li><%= link_to 'Sign In', new_user_session_path %></li>
+              <li><%= link_to 'Sign Up', new_user_registration_path %></li>
+              <li><%= link_to 'Log In', new_user_session_path %></li>
             </ul>
           <% end %>
         </div>
