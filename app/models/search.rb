@@ -3,6 +3,8 @@ require 'open-uri'
 class Search < ApplicationRecord
   belongs_to :user
 
+  validates :term, length: { within: 3..20 } 
+
   def is_term_available(input)
     if input.empty?
       "Please enter a search term"
