@@ -1,43 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>lmrtfy.com - "Let Me Reserve That For You!"</title>
+    <title>Let Me Reserve That For You - lmrtfy.com</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">
-          <%= link_to 'lmrtfy.com - "Let Me Reserve That For You!"', root_path, class: 'navbar-brand' %>
-        </div>
-        <div id="navbar">
-          <% if current_user %>
-            <ul class="nav pull-right nav-pills" style="display: flex">
-              <li class="nav"><%= link_to 'Searches', searches_path %></li>
-              <li class="nav"><%= link_to 'Sign Out', destroy_user_session_path %></li>
-            </ul>
-          <% else %>
-            <ul class="nav pull-right nav-pills">
-              <li><%= link_to 'Sign Up', new_user_registration_path %></li>
-              <li><%= link_to 'Log In', new_user_session_path %></li>
-            </ul>
-          <% end %>
-        </div>
-      </div>
-    </nav>
 
-      <div class="container">
-        <% flash.each do |key, value| %>
-          <div class="alert alert-<%= key %>">
-            <%= value %>
-          </div>
-        <% end %>
+  <%= gflash %>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <%= render 'shared/nav' %>
         <%= yield %>
       </div>
-    </body>
-  </html>
+    </div>
+  </div>
+  
+  <%= js add_gritter(flash[:notice], title: "lmtrfy.com notification", sticky: false ) %>
+
+  </body>
+</html>

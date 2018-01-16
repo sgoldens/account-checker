@@ -1,0 +1,25 @@
+<div class='logo'>
+  <h1><%= link_to 'lmrtfy.com', root_path %></h1>
+</div>
+
+<nav class="custom-nav navbar">
+  <div class="container">
+    <div id="navbar">
+      <% if current_user %>
+        <ul class="nav nav-pills pull-left">
+          <li>
+            <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>  
+          </li>
+        </ul>
+      <% else %>
+        <ul class="nav nav-pills pull-left">
+          <li>
+            <%= link_to 'Sign Up', new_user_registration_path %></li>
+          <li>
+            <%= link_to 'Log In', new_user_session_path %>
+          </li>
+        </ul>
+      <% end %>
+    </div>
+  </div>
+</nav>
