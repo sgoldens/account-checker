@@ -11,8 +11,6 @@ gem 'rails', '~> 5.1.4'
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
-# Use SCSS for stylesheets
-# gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -40,13 +38,16 @@ gem 'jquery-rails'
 gem 'sprockets-rails'
 gem "dynamic_form"
 gem 'gritter', "1.2.0"
+gem "bootstrap_form"
+gem 'selenium-webdriver'
+gem "chromedriver-helper"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
-  gem 'selenium-webdriver'
+  gem 'pry'
 end
 
 group :development do

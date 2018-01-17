@@ -4,6 +4,7 @@ class HomeController < ApplicationController
   # GET /
   # GET /home
   def index
+    @tester = User.last
   end
 
 end
