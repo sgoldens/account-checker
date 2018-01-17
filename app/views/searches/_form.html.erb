@@ -1,5 +1,4 @@
-<%= form_for(Search.new(user: current_user)) do |f| %>
-    <%= f.label "User name search", content: "User name", class: "col-sm-2" %>
-    <%= f.text_field :term, id: 'user', placeholder: "Type a name..." %>
-  <%=f.submit "Search", class: "btn btn-primary"%>
+<%= bootstrap_form_for(@search) do |f| %>
+  <%= f.text_field(:term) %>
+  <%= f.submit "Search" %>
 <% end %>

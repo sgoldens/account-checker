@@ -8,11 +8,11 @@ class SearchesController < ApplicationController
     if @search.save
       
       begin
-        @results = Search.new.is_term_taken?(search_params[:term])
+        @result = Search.new.is_term_taken?(search_params[:term])
 
-        if @results === true
+        if @result === true
           gflash :warning => "#{search_params[:term]} is unavailable"
-        elsif @results === false
+        elsif @result === false
           gflash :success => "#{search_params[:term]} is available"
         end 
 
