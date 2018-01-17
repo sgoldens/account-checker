@@ -21,6 +21,3 @@ driver.find_element(:id, 'user_password_confirmation').send_keys(@tester['passwo
 
 # Submit form
 driver.find_element(:name, 'commit').click
-
-# sleep a second to show sign-in success
-sleep 10
