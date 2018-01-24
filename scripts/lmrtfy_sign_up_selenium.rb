@@ -10,7 +10,15 @@ driver = Selenium::WebDriver.for :chrome, options: options
     'password' => 'tester'
 }
 
-driver.navigate.to "http://lmrtfy.com/users/sign_up"
+# Local development
+if Rails.env.test? || Rails.env.development?
+  driver.navigate.to "http://localhost:3000/users/sign_up"
+end
+
+# Live production
+if Rails.env.production?
+  driver.navigate.to "http://lmrtfy.com/users/sign_up"
+end
 
 # WebDriver may not wait for the page to load
 wait = Selenium::WebDriver::Wait.new(:timeout => 10) # seconds

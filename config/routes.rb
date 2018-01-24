@@ -3,14 +3,15 @@ Rails.application.routes.draw do
   devise_for :users
   
   get "/home"          => "home#index"
-  # get "users/sign_out" => "devise/sessions#destroy"
   
   devise_scope :user do
     get "/users/sign_out" => "devise/sessions#destroy"
-    # get "/users/sign_in" => "devise/sessions#new"
   end
 
+  # Automation tasks
   post "/new_test_account", to: "tasks#new_test_account", as: "new_test_account"
+  post "/sign_in_as_new_test_account", to: "tasks#sign_in_as_new_test_account", as: "sign_in_as_new_test_account"
+  post "/remove_latest_test_account", to: "tasks#remove_latest_test_account", as: "remove_latest_test_account"
 
   resources :tasks
   resources :searches
