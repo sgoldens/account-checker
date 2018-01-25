@@ -8,9 +8,9 @@ RSpec.describe User, :type => :model do
     expect(FactoryBot.build(:user, email: nil).save).to be false
   end
   it "is invalid without a unique email" do
-    expect(FactoryBot.build(:user, :email => 'tester@lmrtfy.com')).to be false
+    expect(FactoryBot.build(:user).save).to be false
   end
   it "is invalid without an email" do
-    expect(FactoryBot.build(:user, email: nil)).to be false
+    expect(FactoryBot.build(:user, email: nil).save).to be false
   end
 end
