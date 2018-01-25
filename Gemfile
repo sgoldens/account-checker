@@ -67,6 +67,8 @@ end
 
 group :test do
   gem 'simplecov', :require => false
+  gem 'shoulda-matchers', '~> 3.0', require: false
+  gem 'database_cleaner', '~> 1.5'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
