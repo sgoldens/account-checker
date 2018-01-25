@@ -1,0 +1,502 @@
+# Logfile created on 2018-01-24 13:08:11 -0800 by logger.rb/54362
+2018-01-24 13:08:11 INFO Selenium -> POST session/cde2b8aac6ce25b0636a89465d0e8e14/url
+2018-01-24 13:08:11 INFO Selenium    >>> http://127.0.0.1:9515/session/cde2b8aac6ce25b0636a89465d0e8e14/url | {"url":"http://localhost:3000/users/sign_in"}
+2018-01-24 13:08:11 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:08:12 INFO Selenium <- {"sessionId":"cde2b8aac6ce25b0636a89465d0e8e14","status":0,"value":null}
+2018-01-24 13:08:12 INFO Selenium -> POST session/cde2b8aac6ce25b0636a89465d0e8e14/element
+2018-01-24 13:08:12 INFO Selenium    >>> http://127.0.0.1:9515/session/cde2b8aac6ce25b0636a89465d0e8e14/element | {"using":"id","value":"user_email"}
+2018-01-24 13:08:12 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:08:12 INFO Selenium <- {"sessionId":"cde2b8aac6ce25b0636a89465d0e8e14","status":0,"value":{"ELEMENT":"0.2618834671575807-1"}}
+2018-01-24 13:08:12 INFO Selenium -> POST session/cde2b8aac6ce25b0636a89465d0e8e14/element
+2018-01-24 13:08:12 INFO Selenium    >>> http://127.0.0.1:9515/session/cde2b8aac6ce25b0636a89465d0e8e14/element | {"using":"id","value":"user_email"}
+2018-01-24 13:08:12 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:08:12 INFO Selenium <- {"sessionId":"cde2b8aac6ce25b0636a89465d0e8e14","status":0,"value":{"ELEMENT":"0.2618834671575807-1"}}
+2018-01-24 13:08:12 INFO Selenium -> POST session/cde2b8aac6ce25b0636a89465d0e8e14/element/0.2618834671575807-1/value
+2018-01-24 13:08:12 INFO Selenium    >>> http://127.0.0.1:9515/session/cde2b8aac6ce25b0636a89465d0e8e14/element/0.2618834671575807-1/value | {"value":["tester@lmrtfy.com"]}
+2018-01-24 13:08:12 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"31"}
+2018-01-24 13:08:13 INFO Selenium <- {"sessionId":"cde2b8aac6ce25b0636a89465d0e8e14","status":0,"value":null}
+2018-01-24 13:08:13 INFO Selenium -> POST session/cde2b8aac6ce25b0636a89465d0e8e14/element
+2018-01-24 13:08:13 INFO Selenium    >>> http://127.0.0.1:9515/session/cde2b8aac6ce25b0636a89465d0e8e14/element | {"using":"id","value":"user_password"}
+2018-01-24 13:08:13 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"38"}
+2018-01-24 13:08:13 INFO Selenium <- {"sessionId":"cde2b8aac6ce25b0636a89465d0e8e14","status":0,"value":{"ELEMENT":"0.2618834671575807-2"}}
+2018-01-24 13:08:13 INFO Selenium -> POST session/cde2b8aac6ce25b0636a89465d0e8e14/element/0.2618834671575807-2/value
+2018-01-24 13:08:13 INFO Selenium    >>> http://127.0.0.1:9515/session/cde2b8aac6ce25b0636a89465d0e8e14/element/0.2618834671575807-2/value | {"value":["tester"]}
+2018-01-24 13:08:13 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"20"}
+2018-01-24 13:08:13 INFO Selenium <- {"sessionId":"cde2b8aac6ce25b0636a89465d0e8e14","status":0,"value":null}
+2018-01-24 13:08:13 INFO Selenium -> POST session/cde2b8aac6ce25b0636a89465d0e8e14/element
+2018-01-24 13:08:13 INFO Selenium    >>> http://127.0.0.1:9515/session/cde2b8aac6ce25b0636a89465d0e8e14/element | {"using":"name","value":"commit"}
+2018-01-24 13:08:13 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"33"}
+2018-01-24 13:08:13 INFO Selenium <- {"sessionId":"cde2b8aac6ce25b0636a89465d0e8e14","status":0,"value":{"ELEMENT":"0.2618834671575807-3"}}
+2018-01-24 13:08:13 INFO Selenium -> POST session/cde2b8aac6ce25b0636a89465d0e8e14/element/0.2618834671575807-3/click
+2018-01-24 13:08:14 INFO Selenium <- {"sessionId":"cde2b8aac6ce25b0636a89465d0e8e14","status":0,"value":null}
+2018-01-24 13:08:14 INFO Selenium -> POST session/cde2b8aac6ce25b0636a89465d0e8e14/element
+2018-01-24 13:08:14 INFO Selenium    >>> http://127.0.0.1:9515/session/cde2b8aac6ce25b0636a89465d0e8e14/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:08:14 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:08:14 INFO Selenium <- {"sessionId":"cde2b8aac6ce25b0636a89465d0e8e14","status":0,"value":{"ELEMENT":"0.4027537815966542-1"}}
+2018-01-24 13:08:14 INFO Selenium -> POST session/cde2b8aac6ce25b0636a89465d0e8e14/element
+2018-01-24 13:08:14 INFO Selenium    >>> http://127.0.0.1:9515/session/cde2b8aac6ce25b0636a89465d0e8e14/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:08:14 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:08:14 INFO Selenium <- {"sessionId":"cde2b8aac6ce25b0636a89465d0e8e14","status":0,"value":{"ELEMENT":"0.4027537815966542-1"}}
+2018-01-24 13:08:14 INFO Selenium -> GET session/cde2b8aac6ce25b0636a89465d0e8e14/element/0.4027537815966542-1/text
+2018-01-24 13:08:14 INFO Selenium <- {"sessionId":"cde2b8aac6ce25b0636a89465d0e8e14","status":0,"value":"tester@lmrtfy.com"}
+2018-01-24 13:13:32 DEBUG Selenium Executing Process ["/Users/sg/.rvm/gems/ruby-2.3.1/bin/chromedriver", "--port=9515"]
+2018-01-24 13:13:32 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:13:32 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:13:32 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:13:32 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 9515
+Only local connections are allowed.
+2018-01-24 13:13:33 INFO Selenium -> POST session
+2018-01-24 13:13:33 INFO Selenium    >>> http://127.0.0.1:9515/session | {"desiredCapabilities":{"browserName":"chrome","version":"","platform":"ANY","javascriptEnabled":true,"cssSelectorsEnabled":true,"takesScreenshot":false,"nativeEvents":false,"rotatable":false,"chromeOptions":{"args":["--no-sandbox","--disable-gpu","--set-chrome-log-file File.absolute_path('chrome_log.txt', File.absolute_path)"]}},"capabilities":{"firstMatch":[{"browserName":"chrome"}]}}
+2018-01-24 13:13:33 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"389"}
+2018-01-24 13:13:34 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef)","userDataDir":"/var/folders/0n/3f6012l173z1rwn_j2xt4_tw0000gn/T/.org.chromium.Chromium.yIIXDy"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"63.0.3239.132","webStorageEnabled":true}}
+2018-01-24 13:13:34 INFO Selenium Detected OSS dialect.
+2018-01-24 13:13:34 INFO Selenium -> POST session/d5823649e77ab08bbe6d6d98a3c8cdc7/url
+2018-01-24 13:13:34 INFO Selenium    >>> http://127.0.0.1:9515/session/d5823649e77ab08bbe6d6d98a3c8cdc7/url | {"url":"http://localhost:3000/users/sign_in"}
+2018-01-24 13:13:34 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:13:35 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":null}
+2018-01-24 13:13:35 INFO Selenium -> POST session/d5823649e77ab08bbe6d6d98a3c8cdc7/element
+2018-01-24 13:13:35 INFO Selenium    >>> http://127.0.0.1:9515/session/d5823649e77ab08bbe6d6d98a3c8cdc7/element | {"using":"id","value":"user_email"}
+2018-01-24 13:13:35 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:13:35 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":{"ELEMENT":"0.4927721600551147-1"}}
+2018-01-24 13:13:35 INFO Selenium -> POST session/d5823649e77ab08bbe6d6d98a3c8cdc7/element
+2018-01-24 13:13:35 INFO Selenium    >>> http://127.0.0.1:9515/session/d5823649e77ab08bbe6d6d98a3c8cdc7/element | {"using":"id","value":"user_email"}
+2018-01-24 13:13:35 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:13:35 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":{"ELEMENT":"0.4927721600551147-1"}}
+2018-01-24 13:13:35 INFO Selenium -> POST session/d5823649e77ab08bbe6d6d98a3c8cdc7/element/0.4927721600551147-1/value
+2018-01-24 13:13:35 INFO Selenium    >>> http://127.0.0.1:9515/session/d5823649e77ab08bbe6d6d98a3c8cdc7/element/0.4927721600551147-1/value | {"value":["tester@lmrtfy.com"]}
+2018-01-24 13:13:35 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"31"}
+2018-01-24 13:13:36 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":null}
+2018-01-24 13:13:36 INFO Selenium -> POST session/d5823649e77ab08bbe6d6d98a3c8cdc7/element
+2018-01-24 13:13:36 INFO Selenium    >>> http://127.0.0.1:9515/session/d5823649e77ab08bbe6d6d98a3c8cdc7/element | {"using":"id","value":"user_password"}
+2018-01-24 13:13:36 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"38"}
+2018-01-24 13:13:36 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":{"ELEMENT":"0.4927721600551147-2"}}
+2018-01-24 13:13:36 INFO Selenium -> POST session/d5823649e77ab08bbe6d6d98a3c8cdc7/element/0.4927721600551147-2/value
+2018-01-24 13:13:36 INFO Selenium    >>> http://127.0.0.1:9515/session/d5823649e77ab08bbe6d6d98a3c8cdc7/element/0.4927721600551147-2/value | {"value":["tester"]}
+2018-01-24 13:13:36 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"20"}
+2018-01-24 13:13:36 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":null}
+2018-01-24 13:13:36 INFO Selenium -> POST session/d5823649e77ab08bbe6d6d98a3c8cdc7/element
+2018-01-24 13:13:36 INFO Selenium    >>> http://127.0.0.1:9515/session/d5823649e77ab08bbe6d6d98a3c8cdc7/element | {"using":"name","value":"commit"}
+2018-01-24 13:13:36 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"33"}
+2018-01-24 13:13:36 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":{"ELEMENT":"0.4927721600551147-3"}}
+2018-01-24 13:13:36 INFO Selenium -> POST session/d5823649e77ab08bbe6d6d98a3c8cdc7/element/0.4927721600551147-3/click
+2018-01-24 13:13:37 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":null}
+2018-01-24 13:13:37 INFO Selenium -> POST session/d5823649e77ab08bbe6d6d98a3c8cdc7/element
+2018-01-24 13:13:37 INFO Selenium    >>> http://127.0.0.1:9515/session/d5823649e77ab08bbe6d6d98a3c8cdc7/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:13:37 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:13:37 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":{"ELEMENT":"0.8410852045626567-1"}}
+2018-01-24 13:13:37 INFO Selenium -> POST session/d5823649e77ab08bbe6d6d98a3c8cdc7/element
+2018-01-24 13:13:37 INFO Selenium    >>> http://127.0.0.1:9515/session/d5823649e77ab08bbe6d6d98a3c8cdc7/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:13:37 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:13:37 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":{"ELEMENT":"0.8410852045626567-1"}}
+2018-01-24 13:13:37 INFO Selenium -> GET session/d5823649e77ab08bbe6d6d98a3c8cdc7/element/0.8410852045626567-1/text
+2018-01-24 13:13:37 INFO Selenium <- {"sessionId":"d5823649e77ab08bbe6d6d98a3c8cdc7","status":0,"value":"tester@lmrtfy.com"}
+2018-01-24 13:14:55 DEBUG Selenium Executing Process ["/Users/sg/.rvm/gems/ruby-2.3.1/bin/chromedriver", "--port=9515"]
+2018-01-24 13:14:55 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:14:55 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:14:56 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 9515
+Only local connections are allowed.
+2018-01-24 13:14:56 INFO Selenium -> POST session
+2018-01-24 13:14:56 INFO Selenium    >>> http://127.0.0.1:9515/session | {"desiredCapabilities":{"browserName":"chrome","version":"","platform":"ANY","javascriptEnabled":true,"cssSelectorsEnabled":true,"takesScreenshot":false,"nativeEvents":false,"rotatable":false,"chromeOptions":{"args":["--no-sandbox","--disable-gpu","--set-chrome-log-file File.absolute_path('chrome_log.txt', File.absolute_path)"]}},"capabilities":{"firstMatch":[{"browserName":"chrome"}]}}
+2018-01-24 13:14:56 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"389"}
+2018-01-24 13:14:57 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef)","userDataDir":"/var/folders/0n/3f6012l173z1rwn_j2xt4_tw0000gn/T/.org.chromium.Chromium.tFd7F4"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"63.0.3239.132","webStorageEnabled":true}}
+2018-01-24 13:14:57 INFO Selenium Detected OSS dialect.
+2018-01-24 13:14:57 INFO Selenium -> POST session/0211102f1ff75683bbf434b7df2b2233/url
+2018-01-24 13:14:57 INFO Selenium    >>> http://127.0.0.1:9515/session/0211102f1ff75683bbf434b7df2b2233/url | {"url":"http://localhost:3000/users/sign_in"}
+2018-01-24 13:14:57 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:14:57 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":null}
+2018-01-24 13:14:57 INFO Selenium -> POST session/0211102f1ff75683bbf434b7df2b2233/element
+2018-01-24 13:14:57 INFO Selenium    >>> http://127.0.0.1:9515/session/0211102f1ff75683bbf434b7df2b2233/element | {"using":"id","value":"user_email"}
+2018-01-24 13:14:57 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:14:57 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":{"ELEMENT":"0.702567333059156-1"}}
+2018-01-24 13:14:57 INFO Selenium -> POST session/0211102f1ff75683bbf434b7df2b2233/element
+2018-01-24 13:14:57 INFO Selenium    >>> http://127.0.0.1:9515/session/0211102f1ff75683bbf434b7df2b2233/element | {"using":"id","value":"user_email"}
+2018-01-24 13:14:57 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:14:57 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":{"ELEMENT":"0.702567333059156-1"}}
+2018-01-24 13:14:57 INFO Selenium -> POST session/0211102f1ff75683bbf434b7df2b2233/element/0.702567333059156-1/value
+2018-01-24 13:14:57 INFO Selenium    >>> http://127.0.0.1:9515/session/0211102f1ff75683bbf434b7df2b2233/element/0.702567333059156-1/value | {"value":["tester@lmrtfy.com"]}
+2018-01-24 13:14:57 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"31"}
+2018-01-24 13:14:58 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":null}
+2018-01-24 13:14:58 INFO Selenium -> POST session/0211102f1ff75683bbf434b7df2b2233/element
+2018-01-24 13:14:58 INFO Selenium    >>> http://127.0.0.1:9515/session/0211102f1ff75683bbf434b7df2b2233/element | {"using":"id","value":"user_password"}
+2018-01-24 13:14:58 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"38"}
+2018-01-24 13:14:58 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":{"ELEMENT":"0.702567333059156-2"}}
+2018-01-24 13:14:58 INFO Selenium -> POST session/0211102f1ff75683bbf434b7df2b2233/element/0.702567333059156-2/value
+2018-01-24 13:14:58 INFO Selenium    >>> http://127.0.0.1:9515/session/0211102f1ff75683bbf434b7df2b2233/element/0.702567333059156-2/value | {"value":["tester"]}
+2018-01-24 13:14:58 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"20"}
+2018-01-24 13:14:58 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":null}
+2018-01-24 13:14:58 INFO Selenium -> POST session/0211102f1ff75683bbf434b7df2b2233/element
+2018-01-24 13:14:58 INFO Selenium    >>> http://127.0.0.1:9515/session/0211102f1ff75683bbf434b7df2b2233/element | {"using":"name","value":"commit"}
+2018-01-24 13:14:58 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"33"}
+2018-01-24 13:14:58 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":{"ELEMENT":"0.702567333059156-3"}}
+2018-01-24 13:14:58 INFO Selenium -> POST session/0211102f1ff75683bbf434b7df2b2233/element/0.702567333059156-3/click
+2018-01-24 13:14:58 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":null}
+2018-01-24 13:14:58 INFO Selenium -> POST session/0211102f1ff75683bbf434b7df2b2233/element
+2018-01-24 13:14:58 INFO Selenium    >>> http://127.0.0.1:9515/session/0211102f1ff75683bbf434b7df2b2233/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:14:58 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:14:58 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":{"ELEMENT":"0.7547781855743965-1"}}
+2018-01-24 13:14:58 INFO Selenium -> POST session/0211102f1ff75683bbf434b7df2b2233/element
+2018-01-24 13:14:58 INFO Selenium    >>> http://127.0.0.1:9515/session/0211102f1ff75683bbf434b7df2b2233/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:14:59 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:14:59 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":{"ELEMENT":"0.7547781855743965-1"}}
+2018-01-24 13:14:59 INFO Selenium -> GET session/0211102f1ff75683bbf434b7df2b2233/element/0.7547781855743965-1/text
+2018-01-24 13:14:59 INFO Selenium <- {"sessionId":"0211102f1ff75683bbf434b7df2b2233","status":0,"value":"tester@lmrtfy.com"}
+2018-01-24 13:16:06 DEBUG Selenium Executing Process ["/Users/sg/.rvm/gems/ruby-2.3.1/bin/chromedriver", "--port=9515"]
+2018-01-24 13:16:06 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:16:06 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:16:06 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 9515
+Only local connections are allowed.
+2018-01-24 13:16:06 INFO Selenium -> POST session
+2018-01-24 13:16:06 INFO Selenium    >>> http://127.0.0.1:9515/session | {"desiredCapabilities":{"browserName":"chrome","version":"","platform":"ANY","javascriptEnabled":true,"cssSelectorsEnabled":true,"takesScreenshot":false,"nativeEvents":false,"rotatable":false,"chromeOptions":{"args":["--no-sandbox","--disable-gpu","--set-chrome-log-file File.absolute_path('chrome_log.txt', File.absolute_path)"]}},"capabilities":{"firstMatch":[{"browserName":"chrome"}]}}
+2018-01-24 13:16:06 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"389"}
+2018-01-24 13:16:07 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef)","userDataDir":"/var/folders/0n/3f6012l173z1rwn_j2xt4_tw0000gn/T/.org.chromium.Chromium.YJKClk"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"63.0.3239.132","webStorageEnabled":true}}
+2018-01-24 13:16:07 INFO Selenium Detected OSS dialect.
+2018-01-24 13:16:07 INFO Selenium -> POST session/eabe14953222d473b619031900eabe4d/url
+2018-01-24 13:16:07 INFO Selenium    >>> http://127.0.0.1:9515/session/eabe14953222d473b619031900eabe4d/url | {"url":"http://localhost:3000/users/sign_in"}
+2018-01-24 13:16:07 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:16:08 DEBUG Selenium Executing Process ["/Users/sg/.rvm/gems/ruby-2.3.1/bin/chromedriver", "--port=9516"]
+2018-01-24 13:16:08 DEBUG Selenium polling for socket on ["127.0.0.1", 9516]
+2018-01-24 13:16:08 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":null}
+2018-01-24 13:16:08 INFO Selenium -> POST session/eabe14953222d473b619031900eabe4d/element
+2018-01-24 13:16:08 INFO Selenium    >>> http://127.0.0.1:9515/session/eabe14953222d473b619031900eabe4d/element | {"using":"id","value":"user_email"}
+2018-01-24 13:16:08 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:16:09 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":{"ELEMENT":"0.7546595213582719-1"}}
+2018-01-24 13:16:09 INFO Selenium -> POST session/eabe14953222d473b619031900eabe4d/element
+2018-01-24 13:16:09 INFO Selenium    >>> http://127.0.0.1:9515/session/eabe14953222d473b619031900eabe4d/element | {"using":"id","value":"user_email"}
+2018-01-24 13:16:09 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:16:09 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":{"ELEMENT":"0.7546595213582719-1"}}
+2018-01-24 13:16:09 INFO Selenium -> POST session/eabe14953222d473b619031900eabe4d/element/0.7546595213582719-1/value
+2018-01-24 13:16:09 INFO Selenium    >>> http://127.0.0.1:9515/session/eabe14953222d473b619031900eabe4d/element/0.7546595213582719-1/value | {"value":["tester@lmrtfy.com"]}
+2018-01-24 13:16:09 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"31"}
+2018-01-24 13:16:09 DEBUG Selenium polling for socket on ["127.0.0.1", 9516]
+2018-01-24 13:16:09 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":null}
+2018-01-24 13:16:09 INFO Selenium -> POST session/eabe14953222d473b619031900eabe4d/element
+2018-01-24 13:16:09 INFO Selenium    >>> http://127.0.0.1:9515/session/eabe14953222d473b619031900eabe4d/element | {"using":"id","value":"user_password"}
+2018-01-24 13:16:09 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"38"}
+2018-01-24 13:16:09 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":{"ELEMENT":"0.7546595213582719-2"}}
+2018-01-24 13:16:09 INFO Selenium -> POST session/eabe14953222d473b619031900eabe4d/element/0.7546595213582719-2/value
+2018-01-24 13:16:09 INFO Selenium    >>> http://127.0.0.1:9515/session/eabe14953222d473b619031900eabe4d/element/0.7546595213582719-2/value | {"value":["tester"]}
+2018-01-24 13:16:09 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"20"}
+2018-01-24 13:16:09 DEBUG Selenium polling for socket on ["127.0.0.1", 9516]
+2018-01-24 13:16:09 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":null}
+2018-01-24 13:16:09 INFO Selenium -> POST session/eabe14953222d473b619031900eabe4d/element
+2018-01-24 13:16:09 INFO Selenium    >>> http://127.0.0.1:9515/session/eabe14953222d473b619031900eabe4d/element | {"using":"name","value":"commit"}
+2018-01-24 13:16:09 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"33"}
+2018-01-24 13:16:09 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":{"ELEMENT":"0.7546595213582719-3"}}
+2018-01-24 13:16:09 INFO Selenium -> POST session/eabe14953222d473b619031900eabe4d/element/0.7546595213582719-3/click
+2018-01-24 13:16:09 DEBUG Selenium polling for socket on ["127.0.0.1", 9516]
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 9516
+Only local connections are allowed.
+2018-01-24 13:16:09 INFO Selenium -> POST session
+2018-01-24 13:16:09 INFO Selenium    >>> http://127.0.0.1:9516/session | {"desiredCapabilities":{"browserName":"chrome","version":"","platform":"ANY","javascriptEnabled":true,"cssSelectorsEnabled":true,"takesScreenshot":false,"nativeEvents":false,"rotatable":false,"chromeOptions":{"args":["--no-sandbox","--disable-gpu","--set-chrome-log-file File.absolute_path('chrome_log.txt', File.absolute_path)"]}},"capabilities":{"firstMatch":[{"browserName":"chrome"}]}}
+2018-01-24 13:16:09 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"389"}
+2018-01-24 13:16:09 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":null}
+2018-01-24 13:16:09 INFO Selenium -> POST session/eabe14953222d473b619031900eabe4d/element
+2018-01-24 13:16:09 INFO Selenium    >>> http://127.0.0.1:9515/session/eabe14953222d473b619031900eabe4d/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:16:09 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:16:10 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":{"ELEMENT":"0.6353581784132496-1"}}
+2018-01-24 13:16:10 INFO Selenium -> POST session/eabe14953222d473b619031900eabe4d/element
+2018-01-24 13:16:10 INFO Selenium    >>> http://127.0.0.1:9515/session/eabe14953222d473b619031900eabe4d/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:16:10 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:16:10 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":{"ELEMENT":"0.6353581784132496-1"}}
+2018-01-24 13:16:10 INFO Selenium -> GET session/eabe14953222d473b619031900eabe4d/element/0.6353581784132496-1/text
+2018-01-24 13:16:10 INFO Selenium <- {"sessionId":"eabe14953222d473b619031900eabe4d","status":0,"value":"tester@lmrtfy.com"}
+2018-01-24 13:16:10 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef)","userDataDir":"/var/folders/0n/3f6012l173z1rwn_j2xt4_tw0000gn/T/.org.chromium.Chromium.pfZuB0"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"63.0.3239.132","webStorageEnabled":true}}
+2018-01-24 13:16:10 INFO Selenium Detected OSS dialect.
+2018-01-24 13:16:10 INFO Selenium -> POST session/cd063ea00fedaa1921b5be278ce0f805/url
+2018-01-24 13:16:10 INFO Selenium    >>> http://127.0.0.1:9516/session/cd063ea00fedaa1921b5be278ce0f805/url | {"url":"http://localhost:3000/users/sign_in"}
+2018-01-24 13:16:10 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:16:12 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":null}
+2018-01-24 13:16:12 INFO Selenium -> POST session/cd063ea00fedaa1921b5be278ce0f805/element
+2018-01-24 13:16:12 INFO Selenium    >>> http://127.0.0.1:9516/session/cd063ea00fedaa1921b5be278ce0f805/element | {"using":"id","value":"user_email"}
+2018-01-24 13:16:12 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:16:12 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":{"ELEMENT":"0.07690148815594955-1"}}
+2018-01-24 13:16:12 INFO Selenium -> POST session/cd063ea00fedaa1921b5be278ce0f805/element
+2018-01-24 13:16:12 INFO Selenium    >>> http://127.0.0.1:9516/session/cd063ea00fedaa1921b5be278ce0f805/element | {"using":"id","value":"user_email"}
+2018-01-24 13:16:12 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:16:12 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":{"ELEMENT":"0.07690148815594955-1"}}
+2018-01-24 13:16:12 INFO Selenium -> POST session/cd063ea00fedaa1921b5be278ce0f805/element/0.07690148815594955-1/value
+2018-01-24 13:16:12 INFO Selenium    >>> http://127.0.0.1:9516/session/cd063ea00fedaa1921b5be278ce0f805/element/0.07690148815594955-1/value | {"value":["tester@lmrtfy.com"]}
+2018-01-24 13:16:12 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"31"}
+2018-01-24 13:16:12 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":null}
+2018-01-24 13:16:12 INFO Selenium -> POST session/cd063ea00fedaa1921b5be278ce0f805/element
+2018-01-24 13:16:12 INFO Selenium    >>> http://127.0.0.1:9516/session/cd063ea00fedaa1921b5be278ce0f805/element | {"using":"id","value":"user_password"}
+2018-01-24 13:16:12 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"38"}
+2018-01-24 13:16:12 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":{"ELEMENT":"0.07690148815594955-2"}}
+2018-01-24 13:16:12 INFO Selenium -> POST session/cd063ea00fedaa1921b5be278ce0f805/element/0.07690148815594955-2/value
+2018-01-24 13:16:12 INFO Selenium    >>> http://127.0.0.1:9516/session/cd063ea00fedaa1921b5be278ce0f805/element/0.07690148815594955-2/value | {"value":["tester"]}
+2018-01-24 13:16:12 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"20"}
+2018-01-24 13:16:12 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":null}
+2018-01-24 13:16:12 INFO Selenium -> POST session/cd063ea00fedaa1921b5be278ce0f805/element
+2018-01-24 13:16:12 INFO Selenium    >>> http://127.0.0.1:9516/session/cd063ea00fedaa1921b5be278ce0f805/element | {"using":"name","value":"commit"}
+2018-01-24 13:16:12 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"33"}
+2018-01-24 13:16:12 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":{"ELEMENT":"0.07690148815594955-3"}}
+2018-01-24 13:16:12 INFO Selenium -> POST session/cd063ea00fedaa1921b5be278ce0f805/element/0.07690148815594955-3/click
+2018-01-24 13:16:13 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":null}
+2018-01-24 13:16:13 INFO Selenium -> POST session/cd063ea00fedaa1921b5be278ce0f805/element
+2018-01-24 13:16:13 INFO Selenium    >>> http://127.0.0.1:9516/session/cd063ea00fedaa1921b5be278ce0f805/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:16:13 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:16:13 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":{"ELEMENT":"0.7940395949443191-1"}}
+2018-01-24 13:16:13 INFO Selenium -> POST session/cd063ea00fedaa1921b5be278ce0f805/element
+2018-01-24 13:16:13 INFO Selenium    >>> http://127.0.0.1:9516/session/cd063ea00fedaa1921b5be278ce0f805/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:16:13 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:16:13 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":{"ELEMENT":"0.7940395949443191-1"}}
+2018-01-24 13:16:13 INFO Selenium -> GET session/cd063ea00fedaa1921b5be278ce0f805/element/0.7940395949443191-1/text
+2018-01-24 13:16:13 INFO Selenium <- {"sessionId":"cd063ea00fedaa1921b5be278ce0f805","status":0,"value":"tester@lmrtfy.com"}
+2018-01-24 13:19:18 DEBUG Selenium Executing Process ["/Users/sg/.rvm/gems/ruby-2.3.1/bin/chromedriver", "--port=9515"]
+2018-01-24 13:19:18 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:19:18 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:19:18 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 9515
+Only local connections are allowed.
+2018-01-24 13:19:18 INFO Selenium -> POST session
+2018-01-24 13:19:18 INFO Selenium    >>> http://127.0.0.1:9515/session | {"desiredCapabilities":{"browserName":"chrome","version":"","platform":"ANY","javascriptEnabled":true,"cssSelectorsEnabled":true,"takesScreenshot":false,"nativeEvents":false,"rotatable":false,"chromeOptions":{"args":["--no-sandbox","--disable-gpu","--set-chrome-log-file File.absolute_path('chrome_log.txt', File.absolute_path)"]}},"capabilities":{"firstMatch":[{"browserName":"chrome"}]}}
+2018-01-24 13:19:18 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"389"}
+2018-01-24 13:19:19 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef)","userDataDir":"/var/folders/0n/3f6012l173z1rwn_j2xt4_tw0000gn/T/.org.chromium.Chromium.j6aGJK"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"63.0.3239.132","webStorageEnabled":true}}
+2018-01-24 13:19:19 INFO Selenium Detected OSS dialect.
+2018-01-24 13:19:19 INFO Selenium -> POST session/5e04b41c3eae283d15bd7a99702afbfc/url
+2018-01-24 13:19:19 INFO Selenium    >>> http://127.0.0.1:9515/session/5e04b41c3eae283d15bd7a99702afbfc/url | {"url":"http://localhost:3000/users/sign_in"}
+2018-01-24 13:19:19 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:19:20 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":null}
+2018-01-24 13:19:20 INFO Selenium -> POST session/5e04b41c3eae283d15bd7a99702afbfc/element
+2018-01-24 13:19:20 INFO Selenium    >>> http://127.0.0.1:9515/session/5e04b41c3eae283d15bd7a99702afbfc/element | {"using":"id","value":"user_email"}
+2018-01-24 13:19:20 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:19:20 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":{"ELEMENT":"0.36555874022645996-1"}}
+2018-01-24 13:19:20 INFO Selenium -> POST session/5e04b41c3eae283d15bd7a99702afbfc/element
+2018-01-24 13:19:20 INFO Selenium    >>> http://127.0.0.1:9515/session/5e04b41c3eae283d15bd7a99702afbfc/element | {"using":"id","value":"user_email"}
+2018-01-24 13:19:20 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:19:20 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":{"ELEMENT":"0.36555874022645996-1"}}
+2018-01-24 13:19:20 INFO Selenium -> POST session/5e04b41c3eae283d15bd7a99702afbfc/element/0.36555874022645996-1/value
+2018-01-24 13:19:20 INFO Selenium    >>> http://127.0.0.1:9515/session/5e04b41c3eae283d15bd7a99702afbfc/element/0.36555874022645996-1/value | {"value":["tester@lmrtfy.com"]}
+2018-01-24 13:19:20 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"31"}
+2018-01-24 13:19:21 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":null}
+2018-01-24 13:19:21 INFO Selenium -> POST session/5e04b41c3eae283d15bd7a99702afbfc/element
+2018-01-24 13:19:21 INFO Selenium    >>> http://127.0.0.1:9515/session/5e04b41c3eae283d15bd7a99702afbfc/element | {"using":"id","value":"user_password"}
+2018-01-24 13:19:21 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"38"}
+2018-01-24 13:19:21 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":{"ELEMENT":"0.36555874022645996-2"}}
+2018-01-24 13:19:21 INFO Selenium -> POST session/5e04b41c3eae283d15bd7a99702afbfc/element/0.36555874022645996-2/value
+2018-01-24 13:19:21 INFO Selenium    >>> http://127.0.0.1:9515/session/5e04b41c3eae283d15bd7a99702afbfc/element/0.36555874022645996-2/value | {"value":["tester"]}
+2018-01-24 13:19:21 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"20"}
+2018-01-24 13:19:21 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":null}
+2018-01-24 13:19:21 INFO Selenium -> POST session/5e04b41c3eae283d15bd7a99702afbfc/element
+2018-01-24 13:19:21 INFO Selenium    >>> http://127.0.0.1:9515/session/5e04b41c3eae283d15bd7a99702afbfc/element | {"using":"name","value":"commit"}
+2018-01-24 13:19:21 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"33"}
+2018-01-24 13:19:21 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":{"ELEMENT":"0.36555874022645996-3"}}
+2018-01-24 13:19:21 INFO Selenium -> POST session/5e04b41c3eae283d15bd7a99702afbfc/element/0.36555874022645996-3/click
+2018-01-24 13:19:21 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":null}
+2018-01-24 13:19:21 INFO Selenium -> POST session/5e04b41c3eae283d15bd7a99702afbfc/element
+2018-01-24 13:19:21 INFO Selenium    >>> http://127.0.0.1:9515/session/5e04b41c3eae283d15bd7a99702afbfc/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:19:21 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:19:21 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":{"ELEMENT":"0.1896687684667151-1"}}
+2018-01-24 13:19:21 INFO Selenium -> POST session/5e04b41c3eae283d15bd7a99702afbfc/element
+2018-01-24 13:19:21 INFO Selenium    >>> http://127.0.0.1:9515/session/5e04b41c3eae283d15bd7a99702afbfc/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:19:21 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:19:21 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":{"ELEMENT":"0.1896687684667151-1"}}
+2018-01-24 13:19:21 INFO Selenium -> GET session/5e04b41c3eae283d15bd7a99702afbfc/element/0.1896687684667151-1/text
+2018-01-24 13:19:21 INFO Selenium <- {"sessionId":"5e04b41c3eae283d15bd7a99702afbfc","status":0,"value":"tester@lmrtfy.com"}
+2018-01-24 13:19:45 DEBUG Selenium Executing Process ["/Users/sg/.rvm/gems/ruby-2.3.1/bin/chromedriver", "--port=9515"]
+2018-01-24 13:19:45 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:19:46 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:19:46 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 9515
+Only local connections are allowed.
+2018-01-24 13:19:46 INFO Selenium -> POST session
+2018-01-24 13:19:46 INFO Selenium    >>> http://127.0.0.1:9515/session | {"desiredCapabilities":{"browserName":"chrome","version":"","platform":"ANY","javascriptEnabled":true,"cssSelectorsEnabled":true,"takesScreenshot":false,"nativeEvents":false,"rotatable":false,"chromeOptions":{"args":["--no-sandbox","--disable-gpu","--set-chrome-log-file File.absolute_path('chrome_log.txt', File.absolute_path)"]}},"capabilities":{"firstMatch":[{"browserName":"chrome"}]}}
+2018-01-24 13:19:46 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"389"}
+2018-01-24 13:19:47 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef)","userDataDir":"/var/folders/0n/3f6012l173z1rwn_j2xt4_tw0000gn/T/.org.chromium.Chromium.6abYLs"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"63.0.3239.132","webStorageEnabled":true}}
+2018-01-24 13:19:47 INFO Selenium Detected OSS dialect.
+2018-01-24 13:19:47 INFO Selenium -> POST session/66267f8792c7af80a533027133367d24/url
+2018-01-24 13:19:47 INFO Selenium    >>> http://127.0.0.1:9515/session/66267f8792c7af80a533027133367d24/url | {"url":"http://localhost:3000/users/sign_in"}
+2018-01-24 13:19:47 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:19:48 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":null}
+2018-01-24 13:19:48 INFO Selenium -> POST session/66267f8792c7af80a533027133367d24/element
+2018-01-24 13:19:48 INFO Selenium    >>> http://127.0.0.1:9515/session/66267f8792c7af80a533027133367d24/element | {"using":"id","value":"user_email"}
+2018-01-24 13:19:48 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:19:48 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":{"ELEMENT":"0.546599409929684-1"}}
+2018-01-24 13:19:48 INFO Selenium -> POST session/66267f8792c7af80a533027133367d24/element
+2018-01-24 13:19:48 INFO Selenium    >>> http://127.0.0.1:9515/session/66267f8792c7af80a533027133367d24/element | {"using":"id","value":"user_email"}
+2018-01-24 13:19:48 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:19:48 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":{"ELEMENT":"0.546599409929684-1"}}
+2018-01-24 13:19:48 INFO Selenium -> POST session/66267f8792c7af80a533027133367d24/element/0.546599409929684-1/value
+2018-01-24 13:19:48 INFO Selenium    >>> http://127.0.0.1:9515/session/66267f8792c7af80a533027133367d24/element/0.546599409929684-1/value | {"value":["tester@lmrtfy.com"]}
+2018-01-24 13:19:48 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"31"}
+2018-01-24 13:19:48 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":null}
+2018-01-24 13:19:48 INFO Selenium -> POST session/66267f8792c7af80a533027133367d24/element
+2018-01-24 13:19:48 INFO Selenium    >>> http://127.0.0.1:9515/session/66267f8792c7af80a533027133367d24/element | {"using":"id","value":"user_password"}
+2018-01-24 13:19:48 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"38"}
+2018-01-24 13:19:48 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":{"ELEMENT":"0.546599409929684-2"}}
+2018-01-24 13:19:48 INFO Selenium -> POST session/66267f8792c7af80a533027133367d24/element/0.546599409929684-2/value
+2018-01-24 13:19:48 INFO Selenium    >>> http://127.0.0.1:9515/session/66267f8792c7af80a533027133367d24/element/0.546599409929684-2/value | {"value":["tester"]}
+2018-01-24 13:19:48 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"20"}
+2018-01-24 13:19:48 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":null}
+2018-01-24 13:19:48 INFO Selenium -> POST session/66267f8792c7af80a533027133367d24/element
+2018-01-24 13:19:48 INFO Selenium    >>> http://127.0.0.1:9515/session/66267f8792c7af80a533027133367d24/element | {"using":"name","value":"commit"}
+2018-01-24 13:19:48 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"33"}
+2018-01-24 13:19:48 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":{"ELEMENT":"0.546599409929684-3"}}
+2018-01-24 13:19:48 INFO Selenium -> POST session/66267f8792c7af80a533027133367d24/element/0.546599409929684-3/click
+2018-01-24 13:19:49 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":null}
+2018-01-24 13:19:49 INFO Selenium -> POST session/66267f8792c7af80a533027133367d24/element
+2018-01-24 13:19:49 INFO Selenium    >>> http://127.0.0.1:9515/session/66267f8792c7af80a533027133367d24/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:19:49 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:19:49 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":{"ELEMENT":"0.36590782493491214-1"}}
+2018-01-24 13:19:49 INFO Selenium -> POST session/66267f8792c7af80a533027133367d24/element
+2018-01-24 13:19:49 INFO Selenium    >>> http://127.0.0.1:9515/session/66267f8792c7af80a533027133367d24/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:19:49 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:19:49 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":{"ELEMENT":"0.36590782493491214-1"}}
+2018-01-24 13:19:49 INFO Selenium -> GET session/66267f8792c7af80a533027133367d24/element/0.36590782493491214-1/text
+2018-01-24 13:19:49 INFO Selenium <- {"sessionId":"66267f8792c7af80a533027133367d24","status":0,"value":"tester@lmrtfy.com"}
+2018-01-24 13:20:27 DEBUG Selenium Executing Process ["/Users/sg/.rvm/gems/ruby-2.3.1/bin/chromedriver", "--port=9515"]
+2018-01-24 13:20:27 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:20:27 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:20:27 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 9515
+Only local connections are allowed.
+2018-01-24 13:20:27 INFO Selenium -> POST session
+2018-01-24 13:20:27 INFO Selenium    >>> http://127.0.0.1:9515/session | {"desiredCapabilities":{"browserName":"chrome","version":"","platform":"ANY","javascriptEnabled":true,"cssSelectorsEnabled":true,"takesScreenshot":false,"nativeEvents":false,"rotatable":false,"chromeOptions":{"args":["--no-sandbox","--disable-gpu","--set-chrome-log-file File.absolute_path('chrome_log.txt', File.absolute_path)"]}},"capabilities":{"firstMatch":[{"browserName":"chrome"}]}}
+2018-01-24 13:20:27 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"389"}
+2018-01-24 13:20:28 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef)","userDataDir":"/var/folders/0n/3f6012l173z1rwn_j2xt4_tw0000gn/T/.org.chromium.Chromium.TF9Nag"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"63.0.3239.132","webStorageEnabled":true}}
+2018-01-24 13:20:28 INFO Selenium Detected OSS dialect.
+2018-01-24 13:20:28 INFO Selenium -> POST session/b9c0e7bb2d114c30fe193fa2e9cc085f/url
+2018-01-24 13:20:28 INFO Selenium    >>> http://127.0.0.1:9515/session/b9c0e7bb2d114c30fe193fa2e9cc085f/url | {"url":"http://localhost:3000/users/sign_in"}
+2018-01-24 13:20:28 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:20:29 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":null}
+2018-01-24 13:20:29 INFO Selenium -> POST session/b9c0e7bb2d114c30fe193fa2e9cc085f/element
+2018-01-24 13:20:29 INFO Selenium    >>> http://127.0.0.1:9515/session/b9c0e7bb2d114c30fe193fa2e9cc085f/element | {"using":"id","value":"user_email"}
+2018-01-24 13:20:29 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:20:29 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":{"ELEMENT":"0.4243342918825608-1"}}
+2018-01-24 13:20:29 INFO Selenium -> POST session/b9c0e7bb2d114c30fe193fa2e9cc085f/element
+2018-01-24 13:20:29 INFO Selenium    >>> http://127.0.0.1:9515/session/b9c0e7bb2d114c30fe193fa2e9cc085f/element | {"using":"id","value":"user_email"}
+2018-01-24 13:20:29 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:20:29 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":{"ELEMENT":"0.4243342918825608-1"}}
+2018-01-24 13:20:29 INFO Selenium -> POST session/b9c0e7bb2d114c30fe193fa2e9cc085f/element/0.4243342918825608-1/value
+2018-01-24 13:20:29 INFO Selenium    >>> http://127.0.0.1:9515/session/b9c0e7bb2d114c30fe193fa2e9cc085f/element/0.4243342918825608-1/value | {"value":["tester@lmrtfy.com"]}
+2018-01-24 13:20:29 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"31"}
+2018-01-24 13:20:29 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":null}
+2018-01-24 13:20:29 INFO Selenium -> POST session/b9c0e7bb2d114c30fe193fa2e9cc085f/element
+2018-01-24 13:20:29 INFO Selenium    >>> http://127.0.0.1:9515/session/b9c0e7bb2d114c30fe193fa2e9cc085f/element | {"using":"id","value":"user_password"}
+2018-01-24 13:20:29 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"38"}
+2018-01-24 13:20:30 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":{"ELEMENT":"0.4243342918825608-2"}}
+2018-01-24 13:20:30 INFO Selenium -> POST session/b9c0e7bb2d114c30fe193fa2e9cc085f/element/0.4243342918825608-2/value
+2018-01-24 13:20:30 INFO Selenium    >>> http://127.0.0.1:9515/session/b9c0e7bb2d114c30fe193fa2e9cc085f/element/0.4243342918825608-2/value | {"value":["tester"]}
+2018-01-24 13:20:30 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"20"}
+2018-01-24 13:20:30 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":null}
+2018-01-24 13:20:30 INFO Selenium -> POST session/b9c0e7bb2d114c30fe193fa2e9cc085f/element
+2018-01-24 13:20:30 INFO Selenium    >>> http://127.0.0.1:9515/session/b9c0e7bb2d114c30fe193fa2e9cc085f/element | {"using":"name","value":"commit"}
+2018-01-24 13:20:30 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"33"}
+2018-01-24 13:20:30 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":{"ELEMENT":"0.4243342918825608-3"}}
+2018-01-24 13:20:30 INFO Selenium -> POST session/b9c0e7bb2d114c30fe193fa2e9cc085f/element/0.4243342918825608-3/click
+2018-01-24 13:20:30 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":null}
+2018-01-24 13:20:30 INFO Selenium -> POST session/b9c0e7bb2d114c30fe193fa2e9cc085f/element
+2018-01-24 13:20:30 INFO Selenium    >>> http://127.0.0.1:9515/session/b9c0e7bb2d114c30fe193fa2e9cc085f/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:20:30 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:20:30 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":{"ELEMENT":"0.23513173394191345-1"}}
+2018-01-24 13:20:30 INFO Selenium -> POST session/b9c0e7bb2d114c30fe193fa2e9cc085f/element
+2018-01-24 13:20:30 INFO Selenium    >>> http://127.0.0.1:9515/session/b9c0e7bb2d114c30fe193fa2e9cc085f/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:20:30 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:20:30 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":{"ELEMENT":"0.23513173394191345-1"}}
+2018-01-24 13:20:30 INFO Selenium -> GET session/b9c0e7bb2d114c30fe193fa2e9cc085f/element/0.23513173394191345-1/text
+2018-01-24 13:20:30 INFO Selenium <- {"sessionId":"b9c0e7bb2d114c30fe193fa2e9cc085f","status":0,"value":"tester@lmrtfy.com"}
+2018-01-24 13:21:14 DEBUG Selenium Executing Process ["/Users/sg/.rvm/gems/ruby-2.3.1/bin/chromedriver", "--port=9515"]
+2018-01-24 13:21:14 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:21:15 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:21:15 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 9515
+Only local connections are allowed.
+2018-01-24 13:21:15 INFO Selenium -> POST session
+2018-01-24 13:21:15 INFO Selenium    >>> http://127.0.0.1:9515/session | {"desiredCapabilities":{"browserName":"chrome","version":"","platform":"ANY","javascriptEnabled":true,"cssSelectorsEnabled":true,"takesScreenshot":false,"nativeEvents":false,"rotatable":false,"chromeOptions":{"args":["--no-sandbox","--disable-gpu","--set-chrome-log-file File.absolute_path('chrome_log.txt', File.absolute_path)"]}},"capabilities":{"firstMatch":[{"browserName":"chrome"}]}}
+2018-01-24 13:21:15 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"389"}
+2018-01-24 13:21:16 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef)","userDataDir":"/var/folders/0n/3f6012l173z1rwn_j2xt4_tw0000gn/T/.org.chromium.Chromium.FiGy3y"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"63.0.3239.132","webStorageEnabled":true}}
+2018-01-24 13:21:16 INFO Selenium Detected OSS dialect.
+2018-01-24 13:21:16 INFO Selenium -> POST session/0c820fe85a42044961a36f3f214c8fcd/url
+2018-01-24 13:21:16 INFO Selenium    >>> http://127.0.0.1:9515/session/0c820fe85a42044961a36f3f214c8fcd/url | {"url":"http://localhost:3000/users/sign_in"}
+2018-01-24 13:21:16 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:21:17 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":null}
+2018-01-24 13:21:17 INFO Selenium -> POST session/0c820fe85a42044961a36f3f214c8fcd/element
+2018-01-24 13:21:17 INFO Selenium    >>> http://127.0.0.1:9515/session/0c820fe85a42044961a36f3f214c8fcd/element | {"using":"id","value":"user_email"}
+2018-01-24 13:21:17 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:21:17 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":{"ELEMENT":"0.127971511163947-1"}}
+2018-01-24 13:21:17 INFO Selenium -> POST session/0c820fe85a42044961a36f3f214c8fcd/element
+2018-01-24 13:21:17 INFO Selenium    >>> http://127.0.0.1:9515/session/0c820fe85a42044961a36f3f214c8fcd/element | {"using":"id","value":"user_email"}
+2018-01-24 13:21:17 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:21:17 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":{"ELEMENT":"0.127971511163947-1"}}
+2018-01-24 13:21:17 INFO Selenium -> POST session/0c820fe85a42044961a36f3f214c8fcd/element/0.127971511163947-1/value
+2018-01-24 13:21:17 INFO Selenium    >>> http://127.0.0.1:9515/session/0c820fe85a42044961a36f3f214c8fcd/element/0.127971511163947-1/value | {"value":["tester@lmrtfy.com"]}
+2018-01-24 13:21:17 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"31"}
+2018-01-24 13:21:17 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":null}
+2018-01-24 13:21:17 INFO Selenium -> POST session/0c820fe85a42044961a36f3f214c8fcd/element
+2018-01-24 13:21:17 INFO Selenium    >>> http://127.0.0.1:9515/session/0c820fe85a42044961a36f3f214c8fcd/element | {"using":"id","value":"user_password"}
+2018-01-24 13:21:17 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"38"}
+2018-01-24 13:21:17 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":{"ELEMENT":"0.127971511163947-2"}}
+2018-01-24 13:21:17 INFO Selenium -> POST session/0c820fe85a42044961a36f3f214c8fcd/element/0.127971511163947-2/value
+2018-01-24 13:21:17 INFO Selenium    >>> http://127.0.0.1:9515/session/0c820fe85a42044961a36f3f214c8fcd/element/0.127971511163947-2/value | {"value":["tester"]}
+2018-01-24 13:21:17 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"20"}
+2018-01-24 13:21:17 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":null}
+2018-01-24 13:21:17 INFO Selenium -> POST session/0c820fe85a42044961a36f3f214c8fcd/element
+2018-01-24 13:21:17 INFO Selenium    >>> http://127.0.0.1:9515/session/0c820fe85a42044961a36f3f214c8fcd/element | {"using":"name","value":"commit"}
+2018-01-24 13:21:17 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"33"}
+2018-01-24 13:21:17 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":{"ELEMENT":"0.127971511163947-3"}}
+2018-01-24 13:21:17 INFO Selenium -> POST session/0c820fe85a42044961a36f3f214c8fcd/element/0.127971511163947-3/click
+2018-01-24 13:21:18 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":null}
+2018-01-24 13:21:18 INFO Selenium -> POST session/0c820fe85a42044961a36f3f214c8fcd/element
+2018-01-24 13:21:18 INFO Selenium    >>> http://127.0.0.1:9515/session/0c820fe85a42044961a36f3f214c8fcd/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:21:18 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:21:18 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":{"ELEMENT":"0.5077808693304549-1"}}
+2018-01-24 13:21:18 INFO Selenium -> POST session/0c820fe85a42044961a36f3f214c8fcd/element
+2018-01-24 13:21:18 INFO Selenium    >>> http://127.0.0.1:9515/session/0c820fe85a42044961a36f3f214c8fcd/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:21:18 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:21:18 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":{"ELEMENT":"0.5077808693304549-1"}}
+2018-01-24 13:21:18 INFO Selenium -> GET session/0c820fe85a42044961a36f3f214c8fcd/element/0.5077808693304549-1/text
+2018-01-24 13:21:18 INFO Selenium <- {"sessionId":"0c820fe85a42044961a36f3f214c8fcd","status":0,"value":"tester@lmrtfy.com"}
+2018-01-24 13:21:36 DEBUG Selenium Executing Process ["/Users/sg/.rvm/gems/ruby-2.3.1/bin/chromedriver", "--port=9515"]
+2018-01-24 13:21:36 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:21:36 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+2018-01-24 13:21:37 DEBUG Selenium polling for socket on ["127.0.0.1", 9515]
+Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 9515
+Only local connections are allowed.
+2018-01-24 13:21:37 INFO Selenium -> POST session
+2018-01-24 13:21:37 INFO Selenium    >>> http://127.0.0.1:9515/session | {"desiredCapabilities":{"browserName":"chrome","version":"","platform":"ANY","javascriptEnabled":true,"cssSelectorsEnabled":true,"takesScreenshot":false,"nativeEvents":false,"rotatable":false,"chromeOptions":{"args":["--no-sandbox","--disable-gpu","--set-chrome-log-file File.absolute_path('chrome_log.txt', File.absolute_path)"]}},"capabilities":{"firstMatch":[{"browserName":"chrome"}]}}
+2018-01-24 13:21:37 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"389"}
+2018-01-24 13:21:38 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef)","userDataDir":"/var/folders/0n/3f6012l173z1rwn_j2xt4_tw0000gn/T/.org.chromium.Chromium.0WFYei"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Mac OS X","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"63.0.3239.132","webStorageEnabled":true}}
+2018-01-24 13:21:38 INFO Selenium Detected OSS dialect.
+2018-01-24 13:21:38 INFO Selenium -> POST session/683c08a67cea8a9ad3ecda2901e27fde/url
+2018-01-24 13:21:38 INFO Selenium    >>> http://127.0.0.1:9515/session/683c08a67cea8a9ad3ecda2901e27fde/url | {"url":"http://localhost:3000/users/sign_in"}
+2018-01-24 13:21:38 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:21:39 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":null}
+2018-01-24 13:21:39 INFO Selenium -> POST session/683c08a67cea8a9ad3ecda2901e27fde/element
+2018-01-24 13:21:39 INFO Selenium    >>> http://127.0.0.1:9515/session/683c08a67cea8a9ad3ecda2901e27fde/element | {"using":"id","value":"user_email"}
+2018-01-24 13:21:39 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:21:39 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":{"ELEMENT":"0.6606808117420593-1"}}
+2018-01-24 13:21:39 INFO Selenium -> POST session/683c08a67cea8a9ad3ecda2901e27fde/element
+2018-01-24 13:21:39 INFO Selenium    >>> http://127.0.0.1:9515/session/683c08a67cea8a9ad3ecda2901e27fde/element | {"using":"id","value":"user_email"}
+2018-01-24 13:21:39 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"35"}
+2018-01-24 13:21:39 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":{"ELEMENT":"0.6606808117420593-1"}}
+2018-01-24 13:21:39 INFO Selenium -> POST session/683c08a67cea8a9ad3ecda2901e27fde/element/0.6606808117420593-1/value
+2018-01-24 13:21:39 INFO Selenium    >>> http://127.0.0.1:9515/session/683c08a67cea8a9ad3ecda2901e27fde/element/0.6606808117420593-1/value | {"value":["tester@lmrtfy.com"]}
+2018-01-24 13:21:39 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"31"}
+2018-01-24 13:21:39 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":null}
+2018-01-24 13:21:39 INFO Selenium -> POST session/683c08a67cea8a9ad3ecda2901e27fde/element
+2018-01-24 13:21:39 INFO Selenium    >>> http://127.0.0.1:9515/session/683c08a67cea8a9ad3ecda2901e27fde/element | {"using":"id","value":"user_password"}
+2018-01-24 13:21:39 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"38"}
+2018-01-24 13:21:39 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":{"ELEMENT":"0.6606808117420593-2"}}
+2018-01-24 13:21:39 INFO Selenium -> POST session/683c08a67cea8a9ad3ecda2901e27fde/element/0.6606808117420593-2/value
+2018-01-24 13:21:39 INFO Selenium    >>> http://127.0.0.1:9515/session/683c08a67cea8a9ad3ecda2901e27fde/element/0.6606808117420593-2/value | {"value":["tester"]}
+2018-01-24 13:21:39 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"20"}
+2018-01-24 13:21:39 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":null}
+2018-01-24 13:21:39 INFO Selenium -> POST session/683c08a67cea8a9ad3ecda2901e27fde/element
+2018-01-24 13:21:39 INFO Selenium    >>> http://127.0.0.1:9515/session/683c08a67cea8a9ad3ecda2901e27fde/element | {"using":"name","value":"commit"}
+2018-01-24 13:21:39 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"33"}
+2018-01-24 13:21:39 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":{"ELEMENT":"0.6606808117420593-3"}}
+2018-01-24 13:21:39 INFO Selenium -> POST session/683c08a67cea8a9ad3ecda2901e27fde/element/0.6606808117420593-3/click
+2018-01-24 13:21:40 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":null}
+2018-01-24 13:21:40 INFO Selenium -> POST session/683c08a67cea8a9ad3ecda2901e27fde/element
+2018-01-24 13:21:40 INFO Selenium    >>> http://127.0.0.1:9515/session/683c08a67cea8a9ad3ecda2901e27fde/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:21:40 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:21:40 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":{"ELEMENT":"0.7670079160705836-1"}}
+2018-01-24 13:21:40 INFO Selenium -> POST session/683c08a67cea8a9ad3ecda2901e27fde/element
+2018-01-24 13:21:40 INFO Selenium    >>> http://127.0.0.1:9515/session/683c08a67cea8a9ad3ecda2901e27fde/element | {"using":"id","value":"last_created_account"}
+2018-01-24 13:21:40 DEBUG Selenium      > {"Accept"=>"application/json", "Content-Type"=>"application/json; charset=utf-8", "Content-Length"=>"45"}
+2018-01-24 13:21:40 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":{"ELEMENT":"0.7670079160705836-1"}}
+2018-01-24 13:21:40 INFO Selenium -> GET session/683c08a67cea8a9ad3ecda2901e27fde/element/0.7670079160705836-1/text
+2018-01-24 13:21:40 INFO Selenium <- {"sessionId":"683c08a67cea8a9ad3ecda2901e27fde","status":0,"value":"tester@lmrtfy.com"}
