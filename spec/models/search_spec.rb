@@ -13,6 +13,10 @@ describe Search, :type => :model do
     expect(FactoryBot.build(:search).save).to be true
   end
 
+  it "is invalid without a term" do
+    expect(FactoryBot.build(:search, term: nil).save).to be false
+  end
+
   it "#is_term_taken?(input) - returns true for taken terms" do
     search = FactoryBot.build(:search)
     expect(search.is_term_taken?(search.term)).to be true
