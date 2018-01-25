@@ -1,0 +1,16 @@
+current directory: /Users/sg/Desktop/account-checker/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+/Users/sg/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20180124-39479-qup5je.rb extconf.rb
+[/Users/sg/Desktop/account-checker/vendor/bundle/ruby/2.3.0/specifications/turbolinks-source-5.1.0.gemspec] isn't a Gem::Specification (NilClass instead).
+creating Makefile
+
+current directory: /Users/sg/Desktop/account-checker/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/sg/Desktop/account-checker/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/sg/Desktop/account-checker/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20180124-39479-1b3avp8/bindex

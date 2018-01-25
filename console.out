@@ -1,1 +1,4 @@
-14:02:31-0800 - ERROR - @tester_latest['email']: tester-644794@lmrtfy.com email does not match tester account syntax, aborting.
+tester_primary = {"email"=>"tester@lmrtfy.com", "password"=>"tester"} 
+tester_latest = {"email"=>"tester@lmrtfy.com", "password"=>"tester"} 
+15:58:11-0800 - ERROR 1 - @tester_latest['email']: tester@lmrtfy.com email does not match tester account syntax: (?i-mx:\A(tester-\d+@lmrtfy.com)\z) ... 
+ aborting 
