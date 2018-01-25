@@ -8,8 +8,6 @@ RSpec.describe User, :type => :model do
     it { should validate_presence_of(:password) }
     it { should have_many(:searches) }
 
-    # it { should enumerize(:status).in(User::STATUS_ACTIVE, User::STATUS_BANNED).with_default(User::STATUS_ACTIVE) }
-
     #TODO other devise validations
   end
 
@@ -23,6 +21,7 @@ RSpec.describe User, :type => :model do
     expect(FactoryBot.build(:user, password: nil).save).to be false
   end
   it "is invalid without a unique email" do
+    expect(FactoryBot.build(:user).save).to be true
     expect(FactoryBot.build(:user).save).to be false
   end
 end
