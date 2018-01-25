@@ -6,18 +6,18 @@
   <div class="container">
     <div id="navbar">
       <% if current_user %>
-        <ul class="nav nav-pills pull-left">
-          <li>
-            <%= link_to 'Sign Out', destroy_user_session_path, method: :delete %>  
-          </li>
+        <ul class="nav nav-pills pull-left list-inline">
+          <li class="list-inline-item">
+            <%= link_to current_user.email, edit_user_registration_path, id: "user-edit-email", method: :get %></li>
+          <li class="list-inline-item">
+            <%= link_to 'Sign Out', destroy_user_session_path, id: "user-sign-out", method: :delete %></li>
         </ul>
       <% else %>
         <ul class="nav nav-pills pull-left">
           <li>
-            <%= link_to 'Sign Up', new_user_registration_path %></li>
+            <%= link_to 'Sign Up', new_user_registration_path, id: "user-sign-up" %></li>
           <li>
-            <%= link_to 'Log In', new_user_session_path %>
-          </li>
+            <%= link_to 'Log In', new_user_session_path, id: "user-sign-in" %></li>
         </ul>
       <% end %>
     </div>
