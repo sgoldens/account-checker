@@ -8,7 +8,7 @@ RSpec.describe User, :type => :model do
     it { should validate_presence_of(:password) }
     it { should have_many(:searches) }
 
-    #TODO other devise validations
+    #TODO add devise validations
   end
 
   it "has a valid factory" do
