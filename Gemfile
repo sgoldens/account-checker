@@ -50,6 +50,7 @@ group :development, :test do
   gem 'pry'
   gem 'factory_bot_rails'
   gem 'rspec-rails'
+  gem 'rails-controller-testing'
 end
 
 group :development do
@@ -63,6 +64,7 @@ group :development do
   gem 'guard-livereload', require: false
   gem 'rack-livereload'
   gem 'rb-fsevent', require: false
+  # gem 'devise-specs', '< 4.2'
 end
 
 group :test do

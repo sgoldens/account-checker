@@ -2,6 +2,10 @@ class SearchesController < ApplicationController
   before_action :require_login
   before_action :set_search, only: [:show, :edit, :update, :destroy]
 
+  def index
+
+  end
+
   def create
     @search = Search.new(search_params)
     @search.user_id = current_user.id
@@ -31,20 +35,16 @@ class SearchesController < ApplicationController
       
   end
 
+  def new
+    @search = Search.new
+  end
+
   def destroy
     @search.delete
     redirect_to @search, notice: "Your search was deleted successful"
   end
 
   def edit
-  end
-
-  def index
-
-  end
-
-  def new
-    @search = Search.new
   end
 
   def show

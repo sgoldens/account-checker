@@ -1,0 +1,30 @@
+require 'rails_helper'
+
+feature '<%= human_name %> signs in' do
+  scenario 'with valid credentials' do
+<% if fixture_replacement == :factory_girl -%>
+    <%= singular_name %> = create :<%= singular_name %>
+<% elsif fixture_replacement == :fabrication -%>
+    <%= singular_name %> = Fabricate :<%= singular_name %>
+<% end -%>
+
+    sign_in <%= singular_name %>
+
+    expect(page).to have_text 'Signed in successfully.'
+    expect(page).to have_link 'Sign Out'
+    expect(page).to have_current_path root_path
+  end
+
+  scenario 'with invalid credentials' do
+<% if fixture_replacement == :factory_girl -%>
+    <%= singular_name %> = build :<%= singular_name %>
+<% elsif fixture_replacement == :fabrication -%>
+    <%= singular_name %> = Fabricate.build :<%= singular_name %>
+<% end -%>
+
+    sign_in <%= singular_name %>
+
+    expect(page).to have_text 'Invalid Email or password.'
+    expect(page).to have_no_link 'Sign Out'
+  end
+end

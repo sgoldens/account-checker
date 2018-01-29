@@ -1,0 +1,21 @@
+require 'rails_helper'
+
+feature '<%= human_name %> signs out' do
+  scenario '<%= singular_name %> signed in' do
+<% if fixture_replacement == :factory_girl -%>
+    <%= singular_name %> = create :<%= singular_name %>
+<% elsif fixture_replacement == :fabrication -%>
+    <%= singular_name %> = Fabricate :<%= singular_name %>
+<% end -%>
+
+    sign_in <%= singular_name %>
+
+    visit root_path
+
+    click_link 'Sign Out'
+
+    expect(page).to have_text 'Signed out successfully.'
+    expect(page).to have_no_link 'Sign Out'
+    expect(page).to have_current_path root_path
+  end
+end
