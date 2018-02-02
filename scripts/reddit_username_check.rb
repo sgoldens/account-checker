@@ -1,8 +1,5 @@
 require 'open3' 
 
-# Author: Sasha Goldenson
-# License: Free to use
-#
 # Description: 
 #   Perform a curl command to Reddit
 #   and check if a username is already taken or not.
@@ -10,12 +7,12 @@ require 'open3'
 # Usage: 
 #   > ruby reddit_username_check.rb "#{search_term}"
 # 
-# If the Reddit user already exists, 
+#  If the Reddit user already exists, 
 #   the curl returns the <title> HTML tag: 
 #     => "#{search_term} (u/#{search_term}) - Reddit"
 #     and the script exits with status TRUE
 #
-# Else, the Reddit user doesn't exist,
+#  Else, the Reddit user doesn't exist,
 #   and the curl returns 
 #     => reddit.com: page not found
 #     and the script exits with status FALSE
@@ -39,7 +36,7 @@ if status.success?
     p false
     exit false
   else
-    p "#{search_term} is probably not a valid username, a reserved word, or unavailable to register. Exiting script w/o true or false."
+    p "#{search_term} is probably not a valid username, is a reserved word, or is unavailable to register. Exiting script."
     exit
   end
 else

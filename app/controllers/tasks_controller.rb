@@ -1,5 +1,11 @@
 class TasksController < ApplicationController
 
+  # GET /
+  # GET /tasks
+  def index
+    @tester = User.last
+  end
+
   def new_test_account
     result = %x(bin/rails runner scripts/lmrtfy_sign_up_selenium.rb)
     redirect_to home_path

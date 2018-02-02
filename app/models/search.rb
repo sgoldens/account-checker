@@ -4,6 +4,7 @@ class Search < ApplicationRecord
   belongs_to :user
 
   validates_format_of :term, with: /\A(^[\Aa-zA-Z0-9_-]{3,20})\z/i, on: :create, :message => "can't be blank"
+  validates :term, uniqueness: true
 
   attr_accessor :html, :term
 

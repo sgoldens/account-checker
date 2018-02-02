@@ -1,4 +1,3 @@
-
 describe HomeController, :type => :controller do
   render_views
 
@@ -22,7 +21,7 @@ describe HomeController, :type => :controller do
       get :index
       expect(response).to render_template('home/index')
       expect(response).to render_template(partial: 'home/_automation_tasks')
-      expect(response).to render_template(partial: 'home/_newest_account')
+      expect(response).to render_template(partial: 'shared/_newest_account')
     end
 
   end

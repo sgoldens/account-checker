@@ -1,24 +1,13 @@
-# README
+# Let Me Ruby That For You - [**lmrtfy.com**](http://lmrtfy.com)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project goals:
 
-Things you may want to cover:
+Note: Must be signed in for the first two examples. You can create an account or use the primary testing account - username: 'tester@lmrtfy.com' / password: 'tester'
 
-* Ruby version
+* Selenium testing scripting: **[Tester Account Tasks]**(http://lmrtfy.com/tasks)
 
-* System dependencies
+* cURL request scripting using a fullstack RoR MVC as the interface: **[Reddit.com username search]**(http://lmrtfy.com/searches/new)
 
-* Configuration
+* RoR test coverage (models/controllers/views)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deploying a fast production website
