@@ -1,4 +1,7 @@
-<%= bootstrap_form_for(@search, label: 'asdasd') do |f| %>
-  <%= f.text_field(:term, size: 30, title: 'search-term', label: "Username search term", placeholder: "Must be between 3-20 alphanumerical (and '-') characters") %>
+<%= bootstrap_form_for(@search, label: 'username-search') do |f| %>
+
+  <%= f.text_field(:term, size: 30, title: 'search-term', label: "Username search term", placeholder: "Must be between 3-20 alphanumerical characters. Some sites also allow - and _") %>
+
   <%= f.submit "Search", class: "btn btn-primary" %>
+
 <% end %>
