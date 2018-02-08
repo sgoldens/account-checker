@@ -19,25 +19,25 @@ class SearchesController < ApplicationController
       if @search.save
         @sites.each do |site|
 
+          case site
+          when 'reddit'
+            site_name = 'Reddit.com'
+          when 'github'
+            site_name = 'GitHub.com'
+          end
+
           begin
 
             @result = Search.new.is_term_taken?(site, search_params[:term])
 
-            case site
-            when 'reddit'
-              site = 'Reddit.com'
-            when 'github'
-              site = 'GitHub.com'
-            end
-
             if @result === true
-              gflash :warning => "Username #{search_params[:term]} is not available on #{site}"
+              gflash :warning => "Username #{search_params[:term]} is not available on #{site_name}"
             elsif @result === false
-              gflash :success => "Username #{search_params[:term]} is available on #{site}"
+              gflash :success => "Username #{search_params[:term]} is available on #{site_name}"
             end 
 
           rescue OpenURI::HTTPError
-            gflash :success => "Username #{search_params[:term]} is available on #{site}"
+            gflash :success => "Username #{search_params[:term]} is available on #{site_name}"
           end
 
         end
