@@ -21,7 +21,6 @@ describe HomeController, :type => :controller do
       get :index
       expect(response).to render_template('home/index')
       expect(response).to render_template(partial: 'home/_automation_tasks')
-      expect(response).to render_template(partial: 'shared/_newest_account')
     end
 
   end

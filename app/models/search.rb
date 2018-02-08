@@ -3,6 +3,8 @@ require 'open-uri'
 class Search < ApplicationRecord
   belongs_to :user
 
+  validates_presence_of :term
+
   attr_accessor :html, :site, :term
 
   def is_term_taken?(site, term)

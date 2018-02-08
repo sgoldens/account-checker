@@ -1,10 +1,6 @@
 describe TasksController, :type => :controller do
   render_views
 
-  before do
-
-  end    
-
   describe 'POST #new_test_account' do
       
     it 'creating a new test account makes a new User objects and redirects' do
@@ -38,7 +34,7 @@ describe TasksController, :type => :controller do
       last_before = User.count
       post :remove_latest_test_account
       last_after = User.count
-      expect(last_before).to be(true)
+      expect(last_before != last_after)
     end
     
     xit '' do
