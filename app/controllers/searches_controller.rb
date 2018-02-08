@@ -9,21 +9,39 @@ class SearchesController < ApplicationController
   def create
     @search = Search.new(search_params)
     @search.user_id = current_user.id
-    if @search.save
-      
-      begin
-        @result = Search.new.is_term_taken?(search_params[:term])
+    @sites = ['reddit', 'github']
 
-        if @result === true
-          gflash :warning => "#{search_params[:term]} is unavailable"
-        elsif @result === false
-          gflash :success => "#{search_params[:term]} is available"
-        end 
+    if !search_params[:term].match /\A(^[\Aa-zA-Z0-9_]{3,20})\z/i
+      gflash :error => "Username #{search_params[:term]} is invalid"
+    end
 
-      rescue OpenURI::HTTPError
-        gflash :success => "#{search_params[:term]} is available"
+    if search_params[:term].match /\A(^[\Aa-zA-Z0-9_]{3,20})\z/i
+      if @search.save
+        @sites.each do |site|
+
+          begin
+
+            @result = Search.new.is_term_taken?(site, search_params[:term])
+
+            case site
+            when 'reddit'
+              site = 'Reddit.com'
+            when 'github'
+              site = 'GitHub.com'
+            end
+
+            if @result === true
+              gflash :warning => "Username #{search_params[:term]} is not available on #{site}"
+            elsif @result === false
+              gflash :success => "Username #{search_params[:term]} is available on #{site}"
+            end 
+
+          rescue OpenURI::HTTPError
+            gflash :success => "Username #{search_params[:term]} is available on #{site}"
+          end
+
+        end
       end
-
     end
 
     respond_to do |f|
@@ -32,7 +50,7 @@ class SearchesController < ApplicationController
     end
 
     redirect_to :new_search
-      
+    
   end
 
   def new
@@ -61,7 +79,7 @@ class SearchesController < ApplicationController
   private
 
   def search_params
-    params.require(:search).permit(:term, :user_id)
+    params.require(:search).permit(:site, :term, :user)
   end
 
   def set_search
