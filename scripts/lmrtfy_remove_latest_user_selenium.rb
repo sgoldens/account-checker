@@ -27,7 +27,6 @@ if Rails.env.production?
   driver.navigate.to "http://lmrtfy.com/users/sign_in"
 end
 
-
 # Wait in case the WebDriver doesn't wait for the page to load
 wait = Selenium::WebDriver::Wait.new(:timeout => 10) # seconds
 wait.until { driver.find_element(:id, 'user_email') }
@@ -37,7 +36,10 @@ wait.until { driver.find_element(:id, 'user_email') }
 driver.find_element(:id, 'user_email').send_keys(@tester_primary['email'])
 driver.find_element(:id, 'user_password').send_keys(@tester_primary['password'])
 driver.find_element(:name, 'commit').click
-driver.find_element(:id, 'title_link').click
+
+# Navigate to automation page
+driver.find_element(:id, 'tester_account_automation_btn').click
+
 # Grab the email of the last created account
 wait.until { driver.find_element(:id, 'last_created_account') }
 @tester_latest['email'] = driver.find_element(:id, 'last_created_account').text
@@ -71,7 +73,6 @@ wait.until { driver.find_element(:id, 'user_email') }
 driver.find_element(:id, 'user_email').send_keys(@tester_latest['email'])
 driver.find_element(:id, 'user_password').send_keys(@tester_latest['password'])
 driver.find_element(:name, 'commit').click
-
 
 # Click on the nav email to enter the edit page
 wait.until { driver.find_element(:id, 'user-edit-email') }
