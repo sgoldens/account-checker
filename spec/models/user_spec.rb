@@ -24,8 +24,12 @@ RSpec.describe User, :type => :model do
   end
 
   it "is invalid without a unique email" do
-    expect(User.create(email: "tester@lmrtfy.com", password: "tester").save).to be true
-    expect(User.create(email: "tester@lmrtfy.com", password: "tester").save).to be false
+    expect(FactoryBot.create(:user, email: "tester@lmrtfy.com").save).to be true
+    begin
+      expect(FactoryBot.create(:user, email: "tester@lmrtfy.com").save).to be(false)
+    rescue ActiveRecord::RecordInvalid
+      expect(true).to be(true)
+    end
   end
 
 end

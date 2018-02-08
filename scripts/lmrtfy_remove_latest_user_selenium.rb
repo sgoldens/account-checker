@@ -1,7 +1,7 @@
 require "selenium-webdriver"
 options = Selenium::WebDriver::Chrome::Options.new
 options.add_argument('--no-sandbox')
-# options.add_argument('--headless')
+options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 options.add_argument("--set-chrome-log-file File.absolute_path('chrome_log.txt', File.absolute_path)")
 driver = Selenium::WebDriver.for :chrome, options: options

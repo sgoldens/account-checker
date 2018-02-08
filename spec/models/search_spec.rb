@@ -18,7 +18,7 @@ describe Search, :type => :model do
   end
 
   it "#is_term_taken?(input) - returns true for taken terms" do
-    search = FactoryBot.build(:search)
+    search = FactoryBot.build(:search, term: "sashagoldenson")
     expect(search.is_term_taken?(search.term)).to be true
   end
     
