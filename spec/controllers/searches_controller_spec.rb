@@ -13,6 +13,7 @@ describe SearchesController, :type => :controller do
     it "renders the index template" do
     get :index
       expect(response).to render_template('searches/index')
+      expect(response).to render_template(partial: 'tasks/_newest_account')     
     end
   end
 
