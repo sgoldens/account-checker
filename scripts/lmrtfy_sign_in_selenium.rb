@@ -1,4 +1,5 @@
 require "selenium-webdriver"
+
 options = Selenium::WebDriver::Chrome::Options.new
 options.add_argument('--no-sandbox')
 options.add_argument('--headless')
@@ -15,7 +16,6 @@ driver = Selenium::WebDriver.for :chrome, options: options
     'email' => '',
     'password' => 'tester'
 }
-
 
 # Local development
 if Rails.env.test? || Rails.env.development?
@@ -37,6 +37,16 @@ wait.until { driver.find_element(:id, 'user_email') }
 driver.find_element(:id, 'user_email').send_keys(@tester_primary['email'])
 driver.find_element(:id, 'user_password').send_keys(@tester_primary['password'])
 driver.find_element(:name, 'commit').click
+
+# Local development
+if Rails.env.test? || Rails.env.development?
+  driver.navigate.to "http://localhost:3000/tasks"
+end
+
+# Live production
+if Rails.env.production?
+  driver.navigate.to "http://lmrtfy.com/tasks"
+end
 
 # Grab the email of the last created account
 wait.until { driver.find_element(:id, 'last_created_account') }
