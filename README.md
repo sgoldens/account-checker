@@ -6,7 +6,7 @@
 
 * Selenium testing scripting: **[Tester Account Tasks](http://lmrtfy.com/tasks)**
 
-* cURL request scripting using a fullstack RoR MVC as the interface: **[Reddit.com username search](http://lmrtfy.com/searches/new)**
+* cURL request scripting using a fullstack RoR MVC as the interface: **[Multi-site username search](http://lmrtfy.com/searches/new)**
 
 * RoR test coverage (models/controllers/views)
 
